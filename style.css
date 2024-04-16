@@ -1,0 +1,118 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+
+}
+
+
+@font-face {
+    font-family: Inter-variable;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: var(--off-black);
+    margin: 10rem;
+    min-width: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    width: 20em;
+    background-color: var(--dark-grey);
+    border-radius: 5%;
+
+}
+
+
+.Avatar img {
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+
+
+
+}
+
+
+
+.text {
+    font-family: Inter-variable;
+
+}
+
+.description {
+    font-family: Inter-variable;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: 400;
+
+}
+
+.local {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: var(--Green);
+    font-weight: 500;
+
+}
+
+.name {
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: center;
+    color: var(--white);
+
+}
+
+ul li {
+    background-color: var(--grey);
+    list-style: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+
+}
+
+li:hover {
+    background-color: var(--Green);
+
+}
+
+a:hover{
+    color: var(--off-black);
+}
